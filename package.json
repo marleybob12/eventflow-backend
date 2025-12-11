@@ -1,0 +1,31 @@
+{
+  "name": "eventflow-api",
+  "version": "1.0.0",
+  "description": "API Backend do EventFlow",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.6.0",
+    "nodemailer": "^7.0.11",
+    "pdfkit": "^0.17.2",
+    "qrcode": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marleybob12/eventflow-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marleybob12/eventflow-backend/issues"
+  },
+  "homepage": "https://github.com/marleybob12/eventflow-backend#readme"
+}
